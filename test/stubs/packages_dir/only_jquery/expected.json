@@ -1,0 +1,19 @@
+{
+  "package": {
+    "name": "only_jquery",
+    "version": "0.0.0",
+    "packageFormatVersion": "nuget:0.0.0",
+    "dependencies": {
+      "jQuery": {
+        "name": "jQuery",
+        "version": "3.2.1",
+        "dependencies": {}
+      }
+    }
+  },
+  "plugin": {
+    "name": "snyk-nuget-plugin",
+    "targetFile": "packages.config",
+    "targetRuntime": "netcoreapp2.0"
+  }
+}
